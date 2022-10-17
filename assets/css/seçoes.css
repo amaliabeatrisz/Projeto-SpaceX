@@ -1,0 +1,135 @@
+
+
+.seçao{
+	width: 100%;
+	height: 681px;
+	background-color: #000;
+}
+
+.seçao_0{
+	background-image: rgb(19, 18, 18);
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+	font-family: 'Rubik', sans-serif;
+	height: 40rem;
+}
+
+.seçao_1{
+	background-image: url(https://www.spacex.com/static/images/backgrounds-2022/transporter-4/post-launch/Transporter-4_homepage_desktop.webp);
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+}
+
+
+.seçao_2{
+	background-image: url(https://www.spacex.com/static/images/backgrounds-2022/sl4-12/post-launch/Starlink-4-12_desktop_homepage.webp);
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+}
+
+
+
+.seçao_3{
+	background:rgb(6, 6, 6);
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+}
+
+
+
+.seçao_4{
+	background-image: url();
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+}
+
+
+.seçao_container{
+	position: absolute;
+	left: 0;
+	bottom: 17%;
+	margin-left :6rem;
+	max-width: 550px;
+}
+
+.seçao_container4{
+	left: 0;
+	bottom: 17%;
+}
+
+.seçao_fg2{
+	position: absolute;
+	right: 0;
+	bottom: 17%;
+	margin-right: 30px;
+	max-width: 550px;
+}
+
+.seçao_container h4{
+	color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+
+.seçao_container h1{
+	color: #fff;
+  text-transform: uppercase;
+  font-size:30px;
+  margin: 0px;
+}
+
+
+
+.seçao_container a{
+	width: 160px;
+	height: 50px;
+	border:2px solid #fff;
+	padding:0px 15px;	
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:30px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	position: relative;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.text{
+	z-index: 11;
+}
+
+.seçao_container a .hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	transform:scale3d(1,0 ,1 );
+	transform-origin: top center;
+	transition: transform 0.4s; 
+} 
+
+.seçao_container a:hover{
+	color: #000;
+}
+
+.seçao_container a:hover .hover{
+	transform:scale3d(1,1 ,1 );
+	transform-origin: bottom center;
+}
+
+
