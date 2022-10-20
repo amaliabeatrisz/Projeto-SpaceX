@@ -1,0 +1,56 @@
+
+input[type="name"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 0.4em;
+  margin-bottom: 1.25em;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 45%;
+  background-color: #1919ff;
+  color: white;
+  padding: 0.8em 0.5em;
+  margin: 1.5em 0;
+  transition-duration: 600ms;
+  transition-property: background-color, transform;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.signUp {
+  float: right;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.15);
+  background-color: #1313ad;
+}
+
+form {
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 30%;
+  left: 0;
+  width: 30em;
+  height: 32em;
+  border-radius: 1em;
+  background-color: #282829;
+  color: white;
+  padding: 1.5em;
+  animation: rotate 5000ms infinite;
+}
+
+@keyframes rotate {
+  50% {
+    box-shadow: 0 0 1em 0.5em #00006e;
+  }
+}
