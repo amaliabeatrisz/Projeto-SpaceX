@@ -1,5 +1,3 @@
-
-
 .seçao{
 	width: 100%;
 	
@@ -66,6 +64,7 @@
 	left: 0;
 	bottom: 17%;
 }
+
 .seçao_fg2{
 	position: absolute;
 	right: 0;
@@ -90,16 +89,12 @@
   margin-bottom: 5px;
 }
 
-
-
 .seçao_container h1{
 	color: #fff;
   text-transform: uppercase;
   font-size:30px;
   margin: 0px;
 }
-
-
 
 .seçao_container a{
 	width: 160px;
@@ -143,6 +138,23 @@
 .seçao_container a:hover .hover{
 	transform:scale3d(1,1 ,1 );
 	transform-origin: bottom center;
+}
+
+@media screen and (max-width: 600px) {
+	  
+	.seçao_container h1{
+		font-size:25px;
+	}
+
+	.seçao_container h4{
+		font-size:20px;
+	}
+
+  .seçao_container{
+	   max-width:290px;
+	 margin-left: 10px;
+  }
+
 }
 
 

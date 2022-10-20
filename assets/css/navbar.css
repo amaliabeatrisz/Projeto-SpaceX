@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mohave:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Nothing+You+Could+Do&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -14,10 +15,6 @@ a{
 ul li{
 	list-style: none;
 }
-
-/* ***** header start ********* */
-
-
 
 .header{
 	width: 100%;
@@ -132,7 +129,7 @@ ul li{
 }
 
 	
-.header_right ul svg{
+.header_right ul svg {
 	width: 20px;
 	height: 20px;
 	fill: #fff;
@@ -140,97 +137,78 @@ ul li{
 }
 
 .header_right {
-	margin-left:12px;
+	margin-left: 12px;
 	margin-right: 60px;
 }
 
-	.header{
-	   display: flex;
-	   background-color: rgba(26, 25, 25, 0.484);
-	}
-		.header_left{
-			flex-grow: 1;
-			display: flex;
-			justify-content: center;
-		}
-
-		.seçao{
-			height: 681px;
-		}
-
-		#menu-btn {
-			display: block;
-			cursor: pointer;
-			float: right;
-			height: 30px;
-			margin: 25px;
-			width: 30px;
-		
-			
-		  }
-		  #menu {
-			z-index: 10;
-			background-color: #2d2d2c;
-		list-style: none;
-		margin: 0px;
-			  min-height: 140px;
-		padding: 0px;
-		position: absolute;
-		right: 0px;
-		top: 100%;
-		width:10rem;}
-		  
-			  .ul #menu {
-				display: block;
-				
-			margin: 0px;
-				  min-height: 120px;
-			padding: 0px;
-			position: absolute;
-			right: 0px;
-			top: 100%;
-			width: 80px;}
-	  
-				 #menu li {
-					  height: 30px;
-			  margin: 0px;
-			  display: block;
-					  padding: 0px;
-			  width: 80px;
+.header {
+	display: flex;
+	background-color: #151414ba;
 }
+
+.header_left {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.seçao {
+	height: 681px;
+}
+
+#menu-btn {
+	display: block;
+	cursor: pointer;
+	float: right;
+	height: 30px;
+	margin: 25px;
+	width: 30px;
+}
+
+#menu {
+	z-index: 10;
+	background-color: #151414ba;
+	list-style: none;
+	margin: 0px;
+	min-height: 140px;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	top: 100%;
+	width: 63rem;
+}
+
+.ul #menu {
+	display: block;
+	/* margin: 0px;
+	height: 120px;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	top: 100%;
+	width: 50rem; */
+}
+
+#menu li {
+	height: 30px;
+	margin: 0px;
+	display: block;
+	padding: 0px;
+}
+
 #menu a {
-					color: #fff;
-					display: block;
-					font-family: Arial;
-					font-size: 12px;
-					font-weight: 500;
-					height: 100%;
-          margin: 0px;
-					padding: 8px;
-					text-align: center;
-					text-decoration: none;
-					text-transform: uppercase;
-					width: 100%;
+	color: #fff;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 500;
+	height: 100%;
+	margin: 0px;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%;
 
-}}
-
-
-
-
-
-@media screen and (max-width: 600px) {
-	  
-	  .seçao_container h1{
-	  	font-size:25px;
-	  }
-
-	  .seçao_container h4{
-	  	font-size:20px;
-	  }
-
-    .seçao_container{
-	     max-width:290px;
-       margin-left: 10px;
-    }
-
+}
 }
